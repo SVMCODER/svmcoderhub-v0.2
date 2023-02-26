@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>SVM CODER HUB | PROJECTS</title>
+</head>
+<body>
+  <header>
+    <div class="tab-bar">
+        <div class="tab">
+            <i class='bx bx-home' onclick="home()"></i>
+            <span onclick="home()">Home</span>
+          </div>
+        <div class="tab">
+          <i class='bx bxl-html5' onclick="code()"></i>
+          <span onclick="code()">HTML</span>
+        </div>
+        <div class="tab">
+            <i class='bx bx-code-alt' onclick="learn()"></i>
+            <span onclick="learn()">Learn</span>
+          </div>
+        <div class="tab">
+          <i class='bx bx-user' onclick="profile()"></i>
+          <span id="name" onclick="profile()">Login</span>
+        </div>
+      </div>
+</header>
+<h1>SVM CODER HUB - PROJECTS</h1>
+<hr> <br>
+<div class="projects">
+  <h3>Image in a webpage</h3>
+  <hr>
+  <p>In this post, I am gonna teach you how to insert an image inside a webpage.
+    Image in a website can only be visible to some of the browsers and nowdays, It is almost available in every browser like Google Chrome, Miscrosoft edge, Safari, Bing, etc...
+    <br> <br>
+    Image tag consists only ON tag.
+    <br> <br>
+    <div class="d">
+      < img >
+    </div>
+    <br>
+    We need to add the destination of the image file using src (source) attribute and an alternative name using alt (alternative) attribute.
+    <br> <br>
+    <div class="d">
+      < img src="image.png" alt="an image" >
+    </p>
+      </div>
+</div>
+<script src="server.js"></script>
+<style>
+ .projects {
+  padding: 0.6em 2em;
+    border: none;
+    resize: none;
+    width: 300px;
+    height: fit-content;
+    outline: none;
+    background-color: #02000a;
+    color: rgb(255, 255, 250);
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid rgb(0, 162, 255);
+    box-shadow: 0 -2px 12px rgba(12, 12, 12, 0.5);
+}
+.d {
+  background-color: #02000a;
+  color: white;
+  border: 1px solid yellow;
+  padding: 0.6em 1em;
+  align-items: center;
+}
+</style>
+</body>
+</html>

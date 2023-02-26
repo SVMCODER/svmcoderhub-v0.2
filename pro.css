@@ -1,0 +1,25 @@
+.pcnt {
+    width: 300px;
+    min-height: 500px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border: 2px solid rgb(0, 110, 255);
+}
+.pimg {
+    width: 199px;
+    height: 150px;
+}
+.pd {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.pp {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+a {
+    text-decoration: none;
+    color: red
+}

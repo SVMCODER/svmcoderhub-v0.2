@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="code.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>SVM CODER HUB | CREATE YOU DREAM SITE</title>
+</head>
+<body>
+<header>
+    <div class="tab-bar">
+        <div class="tab">
+          <i class='bx bxl-html5' onclick="code()" ></i>
+          <span onclick="code()">HTML</span>
+        </div>
+        <div class="tab">
+          <i class='bx bx-folder' onclick="project()" ></i>
+          <span onclick="project()">Projects</span>
+        </div>
+        <div class="tab">
+            <i class='bx bx-code-alt' onclick="learn()" ></i>
+            <span onclick="learn()">Learn</span>
+          </div>
+        <div class="tab">
+          <i class='bx bx-user' onclick="profile()"></i>
+          <span id="name" onclick="profile()">Login</span>
+        </div>
+      </div>
+</header>
+<h1 align="center">SVM CODER HUB: EDITOR </h1>
+<div class="gsd" align="center">
+  <p>CSS AND JAVASCRIPT ARE NOT VISIBLE IN LIVE EDITOR, USE FULL SCREEN TO VIEW ENTIRE CODE</p> <br>
+  <a href="preview.html" target="_blank" class="button">FullScreen</a>
+</div> <br>
+<hr>
+<div class="ed" align="center">
+  <br>
+  <i class='bx bxl-html5'> HTML</i> <br> <br>
+    <textarea id="inputhtml">
+
+    </textarea>
+    <br> <br>
+    <i class='bx bxl-css3' > CSS</i> <br> <br>
+    <textarea id="inputcss">
+
+    </textarea>
+    <br> <br>
+    <i class='bx bxl-nodejs' > JAVASCRIPT</i> <br> <br>
+    <textarea id="inputjs">
+      
+    </textarea>
+    <br>
+  <br> <br>
+  <i class='bx bxs-terminal' >OUTPUT: HTML</i> <br> <br>
+  <div id="output">
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+<style>
+  input {
+	width: 230px;
+
+	background-color: rgb(229, 231, 235);
+	border: none;
+	border-radius: 4px;
+}
+.prj {
+  width: 15%;
+	line-height: 3rem;
+	background-color: rgb(0, 225, 255);
+	border: none;
+	border-radius: 4px;
+  cursor: pointer;
+}
+body{
+  height: 1300px;
+}
+</style>
+<script src="server.js"></script>
+<script src="code.js"></script>
+</body>
+</html>

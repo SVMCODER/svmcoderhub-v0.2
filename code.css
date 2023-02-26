@@ -1,0 +1,45 @@
+#inputhtml {
+    padding: 0.6em 2em;
+    border: none;
+    resize: none;
+    width: 300px;
+    min-height: 350px;
+    outline: none;
+    background-color: #111;
+    color: rgb(255, 205, 222);
+    user-select: none;
+    cursor: pointer;
+}
+#inputcss {    padding: 0.6em 2em;
+    border: none;
+    resize: none;
+    width: 300px;
+    min-height: 350px;
+    outline: none;
+    background-color: #111;
+    color: rgb(144, 252, 171);
+    user-select: none;
+    cursor: pointer;
+
+}
+#inputjs {    padding: 0.6em 2em;
+    border: none;
+    resize: none;
+    width: 300px;
+    min-height: 350px;
+    outline: none;
+    background-color: #111;
+    color: rgb(253, 241, 169);
+    user-select: none;
+    cursor: pointer;
+
+}
+#output {
+    padding: 0.3em 1em;
+    word-break: break-all;
+    min-height: 500px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1.47px solid yellow;
+}
